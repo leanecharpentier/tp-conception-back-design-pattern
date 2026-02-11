@@ -1,3 +1,5 @@
+Retour au <a href="../../README.md"> sommaire</a>
+
 # 📌 Factory Method
 
 ## 🎯 Problème qu'il résout

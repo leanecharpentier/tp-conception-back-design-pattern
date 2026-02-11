@@ -1,3 +1,5 @@
+Retour au <a href="../../README.md"> sommaire</a>
+
 # 📌 Decorator
 
 ## 🎯 Problème qu'il résout

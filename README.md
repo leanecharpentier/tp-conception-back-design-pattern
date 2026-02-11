@@ -5,7 +5,7 @@
 ### Création
 
 - <a href="./CharpentierLeane_TP_DesignPatterns/Singleton/explication.md">Singleton</a>
-- Builder
+- <a href="./CharpentierLeane_TP_DesignPatterns/Builder/explication.md">Builder</a>
 - <a href="./CharpentierLeane_TP_DesignPatterns/FactoryMethod/explication.md">Factory Method</a>
 - Abstract Factory
 - Prototype
@@ -15,8 +15,7 @@
 - Adapter
 - Bridge
 - Composite
-- <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Decoratora>
-- Decorator
+- <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Decorator</a>
 - Facade
 - Flyweight
 - Proxy
@@ -25,10 +24,10 @@
 
 - Chain of responsability
 - Command
-- iterator
+- Iterator
 - Mediator
 - Memento
-- Observer
+- <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Observer</a>
 - State
 - Strategy
 - Template Method
