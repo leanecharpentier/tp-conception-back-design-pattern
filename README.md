@@ -15,6 +15,7 @@
 - Adapter
 - Bridge
 - Composite
+- <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Decoratora>
 - Decorator
 - Facade
 - Flyweight
