@@ -1,10 +1,14 @@
+// Classe Singleton : garantit une seule instance de l'imprimante
 class ImprimanteBureau {
+    // Attribut statique privé : stocke l'instance unique
     private static instance: ImprimanteBureau | null = null;
 
+    // Constructeur privé : empêche l'utilisation de 'new' en dehors de la classe
     private constructor() {
         console.log("Initialisation de l'imprimante physique...");
     }
 
+    // Méthode statique publique : point d'entrée unique pour obtenir l'instance
     public static getInstance(): ImprimanteBureau {
         if (ImprimanteBureau.instance === null) {
             ImprimanteBureau.instance = new ImprimanteBureau();
@@ -17,12 +21,17 @@ class ImprimanteBureau {
     }
 }
 
+// Exemple d'utilisation
+console.log("---- Imprimante partagée ----\n");
+// Première récupération de l'instance (création)
 const imprimante1 = ImprimanteBureau.getInstance();
 imprimante1.imprimer("Rapport annuel.pdf");
 
+// Deuxième récupération de l'instance (retourne la même instance)
 const imprimante2 = ImprimanteBureau.getInstance();
 imprimante2.imprimer("Facture_Client_42.pdf");
 
+// Vérification que les deux variables pointent vers la même instance
 if (imprimante1 === imprimante2) {
     console.log("Succès : Les deux variables partagent la même instance.");
 } else {

@@ -82,20 +82,25 @@ console.log(`Description : ${basic.getDescription()}`);
 console.log(`Coût total : ${basic.getCost().toFixed(2)}€\n`);
 
 // Livraison express
-const express = new ExpressDelivery(new BasicDelivery());
+let express = new BasicDelivery();
+express = new ExpressDelivery(express);
+
 console.log(`Description : ${express.getDescription()}`);
 console.log(`Coût total : ${express.getCost().toFixed(2)}€\n`);
 
 // Livraison express + assurance
-const expressWithInsurance = new InsuranceDecorator(new ExpressDelivery(new BasicDelivery()));
+let expressWithInsurance = new BasicDelivery();
+expressWithInsurance = new ExpressDelivery(expressWithInsurance);
+expressWithInsurance = new InsuranceDecorator(expressWithInsurance);
+
 console.log(`Description : ${expressWithInsurance.getDescription()}`);
 console.log(`Coût total : ${expressWithInsurance.getCost().toFixed(2)}€\n`);
 
 // Livraison avec toutes les options
 let fullService = new BasicDelivery();
+fullService = new ExpressDelivery(fullService);
 fullService = new TrackingDecorator(fullService);
 fullService = new InsuranceDecorator(fullService);
-fullService = new ExpressDelivery(fullService);
 fullService = new GiftWrapDecorator(fullService);
 
 console.log(`Description : ${fullService.getDescription()}`);
@@ -103,8 +108,8 @@ console.log(`Coût total : ${fullService.getCost().toFixed(2)}€\n`);
 
 // On peut aussi combiner différemment : base + suivi + emballage cadeau (sans express)
 let customDelivery = new BasicDelivery();
-customDelivery = new GiftWrapDecorator(customDelivery);
 customDelivery = new TrackingDecorator(customDelivery);
+customDelivery = new GiftWrapDecorator(customDelivery);
 
 console.log(`Description : ${customDelivery.getDescription()}`);
 console.log(`Coût total : ${customDelivery.getCost().toFixed(2)}€\n`);
