@@ -6,7 +6,7 @@
 
 - <a href="./CharpentierLeane_TP_DesignPatterns/Singleton/explication.md">Singleton</a>
 - Builder
-- Factory Method
+- <a href="./CharpentierLeane_TP_DesignPatterns/FactoryMethod/explication.md">Factory Method</a>
 - Abstract Factory
 - Prototype
 
