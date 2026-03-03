@@ -16,7 +16,7 @@
 - Bridge
 - <a href="./CharpentierLeane_TP_DesignPatterns/Composite/explication.md">Composite</a>
 - <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Decorator</a>
-- **Facade**
+- <a href="./CharpentierLeane_TP_DesignPatterns/Facade/explication.md">Facade</a>
 - Flyweight
 - Proxy
 
@@ -27,7 +27,7 @@
 - Iterator
 - Mediator
 - Memento
-- <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Observer</a>
+- <a href="./CharpentierLeane_TP_DesignPatterns/Observer/explication.md">Observer</a>
 - **State**
 - **Strategy**
 - Template Method
