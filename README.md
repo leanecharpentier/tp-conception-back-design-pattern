@@ -23,7 +23,7 @@
 ### Comportementaux
 
 - Chain of responsability
-- **Command**
+- <a href="./CharpentierLeane_TP_DesignPatterns/Command/explication.md">Command</a>
 - Iterator
 - Mediator
 - Memento
