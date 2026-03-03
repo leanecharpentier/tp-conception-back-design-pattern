@@ -28,7 +28,7 @@
 - Mediator
 - Memento
 - <a href="./CharpentierLeane_TP_DesignPatterns/Observer/explication.md">Observer</a>
-- **State**
+- <a href="./CharpentierLeane_TP_DesignPatterns/State/explication.md">State</a>
 - **Strategy**
 - Template Method
 - Visitor
