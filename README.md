@@ -7,28 +7,28 @@
 - <a href="./CharpentierLeane_TP_DesignPatterns/Singleton/explication.md">Singleton</a>
 - <a href="./CharpentierLeane_TP_DesignPatterns/Builder/explication.md">Builder</a>
 - <a href="./CharpentierLeane_TP_DesignPatterns/FactoryMethod/explication.md">Factory Method</a>
-- Abstract Factory
+- <a href="./CharpentierLeane_TP_DesignPatterns/AbstractFactory/explication.md">Abstract Factory</a>
 - Prototype
 
 ### Structurels
 
-- Adapter
+- **Adapter**
 - Bridge
-- Composite
+- **Composite**
 - <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Decorator</a>
-- Facade
+- **Facade**
 - Flyweight
 - Proxy
 
 ### Comportementaux
 
 - Chain of responsability
-- Command
+- **Command**
 - Iterator
 - Mediator
 - Memento
 - <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Observer</a>
-- State
-- Strategy
+- **State**
+- **Strategy**
 - Template Method
 - Visitor
