@@ -29,6 +29,6 @@
 - Memento
 - <a href="./CharpentierLeane_TP_DesignPatterns/Observer/explication.md">Observer</a>
 - <a href="./CharpentierLeane_TP_DesignPatterns/State/explication.md">State</a>
-- **Strategy**
+- <a href="./CharpentierLeane_TP_DesignPatterns/Strategy/explication.md">Strategy</a>
 - Template Method
 - Visitor
