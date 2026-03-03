@@ -12,7 +12,7 @@
 
 ### Structurels
 
-- **Adapter**
+- <a href="./CharpentierLeane_TP_DesignPatterns/Adapter/explication.md">Adapter</a>
 - Bridge
 - **Composite**
 - <a href="./CharpentierLeane_TP_DesignPatterns/Decorator/explication.md">Decorator</a>
